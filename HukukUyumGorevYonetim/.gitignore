@@ -1,0 +1,9 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+HukukUyum.API/Uploads/
+HukukUyum.API/appsettings.Production.json
+

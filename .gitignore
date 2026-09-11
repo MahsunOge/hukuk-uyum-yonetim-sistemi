@@ -1,0 +1,48 @@
+# Local configuration and secrets (publish templates only)
+.env
+.env.*
+!.env.example
+appsettings.json
+appsettings.*.json
+!appsettings.example.json
+secrets.json
+*.pfx
+*.p12
+*.pem
+*.key
+
+# Dependencies and build output
+node_modules/
+dist/
+dist-ssr/
+bin/
+obj/
+TestResults/
+coverage/
+
+# IDE and machine-specific files
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.log
+.DS_Store
+Thumbs.db
+
+# Uploaded documents and database copies
+Uploads/
+*.mdf
+*.ldf
+*.bak
+*.db
+*.sqlite
+*.sqlite3
+
+# Internship documents, document previews and local working files
+/.docx-review-40/
+/output/
+/tmp/
+/.codex/
+/.agents/
+~$*
